@@ -1,4 +1,4 @@
-<p align="center">Mini Banking System</p>
+<p align="center" ><h4 >Mini Banking System</h4></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
