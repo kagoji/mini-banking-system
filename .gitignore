@@ -32,4 +32,3 @@ public/poster-image
 npm-debug.log
 composer.phar
 *.log
-/config/database.php
