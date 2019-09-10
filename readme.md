@@ -1,4 +1,4 @@
-<p align="center" ><h4 >Mini Banking System</h4></p>
+<p align="center">Mini Banking System</p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -12,7 +12,7 @@
 The MiniBank online system (MBS) is a small bank for personal and small business. The banking system enables customer to access their bank account and perform their everyday banking needs. MBS has many customers, and each customer has one or more accounts.
 
 ## Installation
-* Clone the repository
+* Clone the git repository
 * Composer Update
 * Migrate the database table
 
