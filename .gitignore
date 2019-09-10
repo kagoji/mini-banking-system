@@ -1,0 +1,35 @@
+##############################
+# IDE PhpStorm
+#############################
+/.idea
+
+
+##############################
+# Laravel
+#############################
+
+/node_modules
+/public/hot
+/public/storage
+/public/stats/
+/public/streaming/
+/storage/push_notification/
+public/poster-image/*
+/public/streaming
+/public/stats
+public/videos
+public/poster-image
+/storage/*.key
+/storage/xml_dumps/*
+/storage/errorlog
+/storage/eventlog
+/storage/listenerlog
+/storage/systemlog
+/storage/GAdPromoLog
+/storage
+/vendor
+.env
+npm-debug.log
+composer.phar
+*.log
+/config/database.php
