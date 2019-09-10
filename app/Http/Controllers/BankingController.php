@@ -333,8 +333,10 @@ class BankingController extends Controller
             }
         }
 
-        $data['account_list'] = \Auth::check()?\App\Account::where('id',\Auth::user()->id)->get():'';
+        $data['account_list'] = \Auth::check()?\App\Account::where('user_id',\Auth::user()->id)->get():'';
         $data['page_title'] = $this->page_title;
-        return view('pages.transactions.transaction',$data);
+
+        //var_dump($data['account_list']);
+       return view('pages.transactions.transaction',$data);
     }
 }

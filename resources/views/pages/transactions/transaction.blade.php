@@ -99,9 +99,10 @@
                             @if(isset($all_transaction) && count($all_transaction)>0)
                                 @php($total_amount=0)
                                 @php($page=isset($_GET['page'])&&!empty($_GET['page'])?$_GET['page']-1:0)
+                                @php($page2=isset($_GET['page'])&&!empty($_GET['page'])?$_GET['page']:1)
                                 @foreach($all_transaction as $key => $transaction)
                                     @if((isset($transaction->referrence_id) && !empty($transaction->referrence_id)))
-                                        <tr style="cursor: pointer;" onclick="location.href='{{url('/transaction/list?accountID='.$transaction->transaction_account_id.'&view=details&page='.$_GET['page'].'&referenceID='.$transaction->referrence_id)}}';">
+                                        <tr style="cursor: pointer; background-color: dodgerblue;" onclick="location.href='{{url('/transaction/list?accountID='.$transaction->transaction_account_id.'&view=details&page='.$page2.'&referenceID='.$transaction->referrence_id)}}';">
                                     @else
                                         <tr>
                                             @endif
